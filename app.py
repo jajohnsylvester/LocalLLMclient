@@ -17,7 +17,7 @@ NGROK_URL = st.sidebar.text_input(
 # Model Selection Dropdown
 MODEL_NAME = st.sidebar.selectbox(
     "Select Model Name",
-    options=["llama3.2", "deepseek-r1:8b"],
+    options=["llama3.2", "deepseek-r1:8b","qwen2.5:32b"],
     index=0  # Default selection will be llama3.2
 )
 
